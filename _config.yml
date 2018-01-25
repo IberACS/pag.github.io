@@ -1,0 +1,22 @@
+title: idfae
+email: IDFAE2013@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Página elaborada para mostrar el conocimiento adquirido de los alumnos del Tecnológico de Estudios
+  Superior de Tianguistenco, que estan haciendo la estancia en sistema DUAL en Empresas e Instituciones.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: iacs00
+github_username:  IDFAE
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-architect
+plugins:
+     - jekyll-feed
+     - Gemfile
+     - Gemfile.lock
+     - node_modules
+     - vendor/bundle/
+     - vendor/cache/
+     - vendor/gems/
+     - vendor/ruby/
